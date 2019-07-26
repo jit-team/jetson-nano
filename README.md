@@ -10,7 +10,9 @@ In file */etc/docker/daemon.json* add line
 ```
 "default-runtime": "nvidia"
 ```
-Expected result: 
+
+
+*/etc/docker/daemon.json* 
 ```
 {
 "default-runtime": "nvidia",
@@ -23,7 +25,7 @@ Expected result:
 }
 ```
 
-When you set this, you can build the image using our Dockerfile.
+When you set this, you can build the image using our Dockerfile with *docker build command*.
 
 ## Verify
 To check if it's working correctly run container and import tensorflow in python3. 
